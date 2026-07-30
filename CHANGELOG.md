@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.0] - 2026-07-28
+
+### Add
+
+- Add configurable table question type
+
+### Fixed
+
+- Fixed the `Hidden`, `IP address`, and `Hostname` questions to always use the correct value regardless of what was submitted, and restored the missing access check on the tree cascade dropdown children endpoint
+- Fixed the `LDAP select` question's autocomplete search to properly handle special characters in the search text
+- Fix visibility conditions on tree cascade dropdown questions
+- Fixed the `Tree cascade Dropdown` field so that the subtree depth limit is enforced when loading children via AJAX
+- Fixed the `Tree cascade Dropdown` question to only show items from the configured custom dropdown instead of all custom dropdowns
+- Fixed `Tree cascade Dropdown` question showing items from all custom dropdowns instead of only items from the configured one
+
+## [1.1.1] - 2026-05-27
+
+### Fixed
+
+- Fixed the `Tree cascade Dropdown` field so that it works when it is a required field in single-level responses
+
 ## [1.1.0] - 2026-04-27
 
 ### Add
