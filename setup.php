@@ -36,11 +36,11 @@ use Glpi\Plugin\HookManager;
 use GlpiPlugin\Advancedforms\Service\InitManager;
 
 /** @phpstan-ignore theCodingMachineSafe.function (safe to assume this isn't already defined) */
-define('PLUGIN_ADVANCEDFORMS_VERSION', '1.2.0');
+define('PLUGIN_ADVANCEDFORMS_VERSION', '1.3.0');
 
 // Minimal GLPI version, inclusive
 /** @phpstan-ignore theCodingMachineSafe.function (safe to assume this isn't already defined) */
-define("PLUGIN_ADVANCEDFORMS_MIN_GLPI_VERSION", "11.0.0");
+define("PLUGIN_ADVANCEDFORMS_MIN_GLPI_VERSION", "11.0.7");
 
 // Maximum GLPI version, exclusive
 /** @phpstan-ignore theCodingMachineSafe.function (safe to assume this isn't already defined) */
