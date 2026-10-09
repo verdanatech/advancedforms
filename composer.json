@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=8.2"
+    },
+    "config": {
+        "autoloader-suffix": "PluginAdvancedforms",
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.2.99"
+        },
+        "sort-packages": true
+    }
+}
